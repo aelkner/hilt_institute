@@ -6,7 +6,7 @@
 <style type="text/css">
 @import url(/static/css/main.css);
 %for stylesheet in addstyles:
-@import url(/ static/css/{{stylesheet}});
+@import url(/static/css/{{stylesheet}});
 %end
 </style>
 </head>
